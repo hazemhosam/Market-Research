@@ -47,4 +47,6 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+uv.lock
+.python_version
 
