@@ -32,9 +32,19 @@ ENV/
 .uv/
 
 # Environment variable files
-.env 
-.env.*.local
+.env
+.env.*
 .vscode/
 ENVIRONMENTS/
 Environment
+.DS_Store
+Thumbs.db
+
+# -----------------
+# Editors / IDEs
+# -----------------
+.vscode/
+.idea/
+*.swp
+*.swo
 
