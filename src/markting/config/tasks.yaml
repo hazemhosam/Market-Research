@@ -1,0 +1,35 @@
+market_research:
+  description: >
+    Conduct market research to identify trends, opportunities, and challenges in the industry. Focus on understanding customer needs, competitor strategies, and market dynamics to inform marketing decisions.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+    <Budget>{budget}</Budget>
+
+    Current date: {current_date}
+
+  expected_output: >
+  A comprehensive market research report that includes:
+  - Analysis of market trends and opportunities
+  - Competitor analysis
+  - Customer insights and needs
+  - Recommendations for marketing strategies
+
+marketing_strategy:
+  description: >
+    Develop a marketing strategy that aligns with the company's goals and objectives. The strategy should include target audience segmentation, positioning, messaging, and marketing channels.
+    <Product Name>{product_name}</Product Name>
+    <Product Description>{product_description}</Product Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+    Refer to the market research report for insights and building the strategy.
+
+  expected_output: >
+    A detailed marketing strategy document that includes:
+    - Target audience segmentation
+    - Required budget
+    - Recommended marketing channels
+    - Plan of action for the week containing 3 blogs to write, 2 reels to film, and 5 social media posts to create
+    - Key performance indicators (KPIs) to measure success
+    Store the marketing strategy in 'resources/drafts/marketing_strategy.md'.
