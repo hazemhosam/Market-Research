@@ -29,7 +29,7 @@ class MarkteingCrew():
     @agent
     def marketing_agent(self) -> Agent:
         return Agent(
-            config=self.agents_config['markteing_agent'], #type: ignore
+            config=self.agents_config['marketing_agent'], #type: ignore
             llm=llm, tools=[
             SerperDevTool(),
             ScrapeWebsiteTool(),
