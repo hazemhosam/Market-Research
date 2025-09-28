@@ -6,9 +6,35 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.log
+
+# -----------------
+# Virtual Environments
+# -----------------
+.venv/
+venv/
+env/
+ENV/
+
+# -----------------
+# UV (package manager)
+# -----------------
+.uv/
 
 # Environment variable files
 .env 
+.env.*.local
+.vscode/
+ENVIRONMENTS/
+Environment
 
