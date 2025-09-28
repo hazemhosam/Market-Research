@@ -48,5 +48,5 @@ Thumbs.db
 *.swp
 *.swo
 uv.lock
-.python_version
+.python-version
 
