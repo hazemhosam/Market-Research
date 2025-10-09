@@ -27,9 +27,10 @@ Below is an illustrative directory layout (adjust to your actual structure):
 .
 ├── src/
 │   ├── markting/              # core modules & agent implementations
-│   ├── agents/                # modular agent types (collector, analyzer, summarizer)
-│   └── utils/                 # shared utilities (logging, HTTP clients, parsing)
-├── main.py                    # primary orchestrator / entry point
+│      ├── config/             # the configuration for agents and tasks in yaml format
+│         ├── agents.yaml/                
+│         └── tasks.yaml/
+│      └── crew.py/            the main running file                   
 ├── requirements.txt           # Python dependencies
 ├── .env                       # environment variables (API keys, configs)
 ├── Market_Research_Report.txt # sample or template output
